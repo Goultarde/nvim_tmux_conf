@@ -1,3 +1,14 @@
-# .tmux.conf
+# .init.vim and .tmux.conf
 
-Just my tmux configuration file
+Just my neovim and tmux configuration file
+
+Creation of directory and neovim configuration file  
+```
+mkdir -p ~/.config/nvim && nvim ~/.config/nvim/init.vim
+```
+
+Git clonning of plugins and creation of tmux configuration file  
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+nvim ~/.tmux.conf
+```
