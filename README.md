@@ -1,4 +1,5 @@
 # init.vim and .tmux.conf
+Need neovim and tmux installed
 
 Just my neovim and tmux configuration file
 
